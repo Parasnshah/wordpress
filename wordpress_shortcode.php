@@ -1,6 +1,11 @@
 <?php 
 
 //pages
+//functions.php
+//header.php
+//footer.php
+//sidebar.php
+//screenshot.php
 //style.css
 //rtl.css
 //index.php
@@ -83,6 +88,10 @@ bloginfo('description');
 //body class
 body_class();
 /*<body <?php body_class(); ?>> */
+
+//set path css,js and img
+get_bloginfo('template_url');
+
 
 
 //Auther
